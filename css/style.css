@@ -5,41 +5,10 @@
     min-height: 50px;
 }
 
-.main{
-    display: flex;
-    flex-flow: column wrap;
-    align-items : center;
-    /* justify-content: center; */
-    min-width: 800px;
-    min-height: 85vh;
-    /* padding-top:5%; */
-}
-
-.main > img {
-    min-width: 30%;
-    min-height: auto;
-    /* margin-bottom: 1%; */
-}
-
-.mainh1 {
-    color: #d4423e;
-}
-
 .box-shadow { 
     box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .1); 
 }
 
-.col-sm {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.pricing-cards{
-    padding-top: 5%;
-    margin: 0 10%;
-}
-
-.card {
-    border-radius: 15px;
+.pricing-card {
+    padding: 0 10%;
 }
